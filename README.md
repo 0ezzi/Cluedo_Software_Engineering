@@ -19,6 +19,6 @@ The goal of this project is to model and document the essential logic and struct
 
 ## Project Management
 Our workflow and progress were tracked using a Trello board:  
-**[Trello Board Link]([https://trello.com/b/07q4iqQL/cluedo-team-board])**  
+**[Trello Board Link](https://trello.com/b/07q4iqQL/cluedo-team-board)**  
 
 ---
