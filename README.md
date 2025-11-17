@@ -1,4 +1,4 @@
-# Clue (Cluedo) – Software Engineering Diagrams
+# Cluedo – Software Engineering Diagrams
 
 This repository contains a set of Software Engineering diagrams created as part of a university assignment.  
 The diagrams model the theoretical design of a digital version of the board game **Clue (Cluedo)**.
