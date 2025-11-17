@@ -17,4 +17,9 @@ The goal of this project is to model and document the essential logic and struct
 - `sequence/` – Sequence diagrams  
 - `README.md` – Overview of the project
 
+## Project Management
+Our workflow and progress were tracked using a Trello board:  
+**[Trello Board Link]([https://example.com](https://trello.com/b/07q4iqQL/cluedo-team-board))**  
+*(Replace with your actual link.)*
+
 ---
