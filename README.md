@@ -8,12 +8,9 @@
 ## Überblick
 
 Dieses Repository bündelt die Software-Engineering-Dokumentation zum Brettspiel Cluedo.  
-Ziel ist eine klar strukturierte, standardkonforme und leicht navigierbare Sammlung von Artefakten:
+Ziel ist eine klar strukturierte, standardkonforme und leicht navigierbare Sammlung von Artefakten
 
-- UC — Use Cases
-- CD — Klassendiagramm
-- SD — Sequenzdiagramme
-- DM — Datenmodell, Tabellen, Dictionary
+Organisation und Aufgabenverteilung haben über ein Trelloboard stattgefunden.
 
 Hinweis: Die Schnelllinks unten ermöglichen einen direkten Zugriff auf die entsprechenden Dokumente.
 
@@ -55,11 +52,11 @@ Hinweis: Die Schnelllinks unten ermöglichen einen direkten Zugriff auf die ents
 ```
 /
 └── docs/
-    ├── usecases/           Formalisierte Use-Case-Beschreibungen
     ├── class-diagram/      Hauptklassendiagramm (draw.io und PDF)
-    ├── sequence-diagram/   Dynamische Abläufe (Sequenzdiagramme)
     ├── data/               Datenmodell, Tabellen, Dictionary
-    └── presentation/       Abschlusspräsentation
+    ├── presentation/       Abschlusspräsentation
+    ├── sequence-diagram/   Dynamische Abläufe (Sequenzdiagramme)
+    └── usecases/           Formalisierte Use-Case-Beschreibungen
 ```
 
 ---
@@ -69,6 +66,7 @@ Hinweis: Die Schnelllinks unten ermöglichen einen direkten Zugriff auf die ents
 - diagrams.net (draw.io) zur Diagrammerstellung
 - Office-Anwendungen für Text, Tabellen und Präsentationen
 - PDF-Export für finale, nicht bearbeitbare Artefakte
+- Trelloboard zur Projektorganisation und Aufgabenverteilung
 
 ---
 
