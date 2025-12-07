@@ -40,12 +40,6 @@ Hinweis: Die Schnelllinks unten ermöglichen einen direkten Zugriff auf die ents
 - **Präsentation:**  
   [`Presentation.pdf`](docs/presentation/Presentation.pdf) · [`Presentation.pptx`](docs/presentation/Presentation.pptx)
 
-- **Prüfprotokoll (Audit):**  
-  [`Pruefprotokoll.md`](docs/review/Pruefprotokoll.md)
-
-- **AD – Aktivitätsdiagramme:**  
-  Derzeit keine separate Datei im Repo; siehe [`Prüfprotokoll`](docs/review/Pruefprotokoll.md)
-
 ---
 
 ## Navigationsempfehlung
@@ -66,7 +60,6 @@ Hinweis: Die Schnelllinks unten ermöglichen einen direkten Zugriff auf die ents
     ├── data/               Datenmodell, Tabellen, Dictionary
     ├── presentation/       Abschlusspräsentation
     ├── sequence-diagram/   Dynamische Abläufe (Sequenzdiagramme)
-    ├── review/             Prüfprotokoll (Audit)
     ├── trello-board/       Projektorganisation (PDF-Export, JSON)
     └── usecases/           Formalisierte Use-Case-Beschreibungen
 ```
