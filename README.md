@@ -1,24 +1,94 @@
-# Cluedo – Software Engineering Diagrams
+# Cluedo – Software Engineering Dokumentation
 
-This repository contains a set of Software Engineering diagrams created as part of a university assignment.  
-The diagrams model the theoretical design of a digital version of the board game **Clue (Cluedo)**.
-
-## Included Diagram Types
-- **Use Case Discription** – Describe the main interactions between players and the system, outlining functional requirements.  
-- **Class Diagrams** – Represent the structural design of core game entities such as characters, rooms, weapons, and game logic components.  
-- **Sequence Diagrams** – Show key interaction flows within the system, e.g., making a suggestion, processing turns, or verifying accusations.
-
-## Purpose
-The goal of this project is to model and document the essential logic and structure of a Clue-inspired game system. These diagrams provide a foundation for understanding requirements, planning architecture, and supporting potential future implementation.
-
-## Structure
-- `usecase/` – Use case Discription  
-- `class/` – Class diagrams  
-- `sequence/` – Sequence diagrams  
-- `README.md` – Overview of the project
-
-## Project Management
-Our workflow and progress were tracked using a Trello board:  
-**[Trello Board Link](https://trello.com/b/07q4iqQL/cluedo-team-board)**  
+Übersicht über alle Artefakte der digitalen Cluedo-Ausarbeitung  
+(Use Cases, Klassendiagramm, Sequenzdiagramm, Datenmodell).
 
 ---
+
+## Überblick
+
+Dieses Repository bündelt die Software-Engineering-Dokumentation zum Brettspiel Cluedo.  
+Ziel ist eine klar strukturierte, standardkonforme und leicht navigierbare Sammlung von Artefakten:
+
+- UC — Use Cases
+- CD — Klassendiagramm
+- SD — Sequenzdiagramme
+- DM — Datenmodell, Tabellen, Dictionary
+
+Hinweis: Die Schnelllinks unten ermöglichen einen direkten Zugriff auf die entsprechenden Dokumente.
+
+---
+
+## Schnelllinks
+
+- **UC – Use Cases:**  
+  [`docs/usecases`](docs/usecases)
+
+- **CD – Klassendiagramm:**  
+  [`CD_ClassDiagram_Final.drawio`](docs/class-diagram/CD_ClassDiagram_Final.drawio) · [`CD_ClassDiagram_Final.pdf`](docs/class-diagram/CD_ClassDiagram_Final.pdf)
+
+- **SD – Sequenzdiagramme:**
+  - **SD01 – Suggestion:**  
+    [`PDF`](docs/sequence-diagram/SD01_Suggestion.pdf) · [`drawio`](docs/sequence-diagram/SD01_Suggestion.drawio)
+  - **SD02 – Turn:**  
+    [`PDF`](docs/sequence-diagram/SD02_Turn.pdf) · [`drawio`](docs/sequence-diagram/SD02_Turn.drawio)
+
+- **DM – Daten/Tabellen:**  
+  [`DM_DataDictionary.pdf`](docs/data/DM_DataDictionary.pdf) · [`DM_Tables.pdf`](docs/data/DM_Tables.pdf) · [`DM_Tables.ods`](docs/data/DM_Tables.ods)
+
+- **Präsentation:**  
+  [`Presentation.pdf`](docs/presentation/Presentation.pdf) · [`Presentation.pptx`](docs/presentation/Presentation.pptx)
+
+---
+
+## Navigationsempfehlung
+
+1. Beginne mit UC01 in `docs/usecases` für Zieldefinition, Scope und Akteure.
+2. Betrachte anschließend das Klassendiagramm in `docs/class-diagram` für die Strukturübersicht.
+3. Analysiere die dynamischen Abläufe anhand der Sequenzdiagramme in `docs/sequence-diagram`.
+4. Prüfe zuletzt das Datenmodell in `docs/data` (Data Dictionary und Tabellen).
+
+---
+
+## Repository-Struktur
+
+```
+/
+└── docs/
+    ├── usecases/           Formalisierte Use-Case-Beschreibungen
+    ├── class-diagram/      Hauptklassendiagramm (draw.io und PDF)
+    ├── sequence-diagram/   Dynamische Abläufe (Sequenzdiagramme)
+    ├── data/               Datenmodell, Tabellen, Dictionary
+    └── presentation/       Abschlusspräsentation
+```
+
+---
+
+## Tools
+
+- diagrams.net (draw.io) zur Diagrammerstellung
+- Office-Anwendungen für Text, Tabellen und Präsentationen
+- PDF-Export für finale, nicht bearbeitbare Artefakte
+
+---
+
+## Terminologie und Bezeichnungen
+
+Zur einheitlichen Benennung werden folgende Begriffe verwendet (DE/EN):
+- Vorschlag (Suggestion)
+- Zug (Turn)
+- Klassendiagramm (Class Diagram)
+- Sequenzdiagramm (Sequence Diagram)
+- Datenmodell (Data Model)
+
+Dateinamen können englisch sein (z. B. SD01_Suggestion), die Texte im README sind deutsch. Inhaltlich sind die Begriffe konsistent. Abkürzungen werden einheitlich verwendet: UC (Use Cases), CD (Klassendiagramm), SD (Sequenzdiagramme), DM (Datenmodell).
+
+---
+
+## Mitwirkende
+
+Die folgenden Personen haben zum Projekt beigetragen:
+
+Josef Lautner - Kim Reger - Luis Schirmbeck - Nils Berggold
+
+Kurs: WI24A3
