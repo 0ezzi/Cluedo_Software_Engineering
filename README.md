@@ -8,15 +8,19 @@
 ## Überblick
 
 Dieses Repository bündelt die Software-Engineering-Dokumentation zum Brettspiel Cluedo.  
-Ziel ist eine klar strukturierte, standardkonforme und leicht navigierbare Sammlung von Artefakten
+Ziel ist eine klar strukturierte, standardkonforme und leicht navigierbare Sammlung von Artefakten.
 
-Organisation und Aufgabenverteilung haben über ein Trelloboard stattgefunden.
+Organisation und Aufgabenverteilung haben über ein Trello-Board stattgefunden.
 
 Hinweis: Die Schnelllinks unten ermöglichen einen direkten Zugriff auf die entsprechenden Dokumente.
 
 ---
 
 ## Schnelllinks
+
+- **Trello-Board:**  
+  Extern: [`trello.com/b/07q4iqQL`](https://trello.com/b/07q4iqQL)  
+  Lokal: [`TrelloBoard.pdf`](docs/trello-board/TrelloBoard.pdf) · [`JSON-Export`](docs/trello-board/TrelloBoard.json)
 
 - **UC – Use Cases:**  
   [`docs/usecases`](docs/usecases)
@@ -36,11 +40,17 @@ Hinweis: Die Schnelllinks unten ermöglichen einen direkten Zugriff auf die ents
 - **Präsentation:**  
   [`Presentation.pdf`](docs/presentation/Presentation.pdf) · [`Presentation.pptx`](docs/presentation/Presentation.pptx)
 
+- **Prüfprotokoll (Audit):**  
+  [`Pruefprotokoll.md`](docs/review/Pruefprotokoll.md)
+
+- **AD – Aktivitätsdiagramme:**  
+  Derzeit keine separate Datei im Repo; siehe [`Prüfprotokoll`](docs/review/Pruefprotokoll.md)
+
 ---
 
 ## Navigationsempfehlung
 
-1. Beginne mit UC01 in `docs/usecases` für Zieldefinition, Scope und Akteure.
+1. Beginne mit den Use-Case-Beschreibungen in `docs/usecases` (PDF) für Zieldefinition, Scope und Akteure.
 2. Betrachte anschließend das Klassendiagramm in `docs/class-diagram` für die Strukturübersicht.
 3. Analysiere die dynamischen Abläufe anhand der Sequenzdiagramme in `docs/sequence-diagram`.
 4. Prüfe zuletzt das Datenmodell in `docs/data` (Data Dictionary und Tabellen).
@@ -56,6 +66,8 @@ Hinweis: Die Schnelllinks unten ermöglichen einen direkten Zugriff auf die ents
     ├── data/               Datenmodell, Tabellen, Dictionary
     ├── presentation/       Abschlusspräsentation
     ├── sequence-diagram/   Dynamische Abläufe (Sequenzdiagramme)
+    ├── review/             Prüfprotokoll (Audit)
+    ├── trello-board/       Projektorganisation (PDF-Export, JSON)
     └── usecases/           Formalisierte Use-Case-Beschreibungen
 ```
 
@@ -66,7 +78,7 @@ Hinweis: Die Schnelllinks unten ermöglichen einen direkten Zugriff auf die ents
 - diagrams.net (draw.io) zur Diagrammerstellung
 - Office-Anwendungen für Text, Tabellen und Präsentationen
 - PDF-Export für finale, nicht bearbeitbare Artefakte
-- Trelloboard zur Projektorganisation und Aufgabenverteilung
+- Trello-Board zur Projektorganisation und Aufgabenverteilung
 
 ---
 
